@@ -34,7 +34,7 @@ def rungeKutta(v0, h, iter):
 
 def plotIntAndFire(t, v):
     # Use LaTeX
-    plt.rc('text', usetex=True)
+#    plt.rc('text', usetex=True)
     plt.rc('font', family='serif', size='10')
 
     plt.grid()
